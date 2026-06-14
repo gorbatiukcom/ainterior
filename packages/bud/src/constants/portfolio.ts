@@ -18,6 +18,21 @@ type PortfolioProject = {
 
 export const PortfolioProjects: PortfolioProject[] = [
   {
+    projectId: "kompleks-wypoczynkowy-pod-warszawa",
+    name: "Koncepcja kompleksu wypoczynkowego pod Warszawą: filozofia slow life",
+    image: "/images/kompleks-wypoczynkowy-pod-warszawa/1.jpg",
+    images: [
+      "/images/kompleks-wypoczynkowy-pod-warszawa/1.jpg",
+      "/images/kompleks-wypoczynkowy-pod-warszawa/2.jpg",
+      "/images/kompleks-wypoczynkowy-pod-warszawa/3.jpg",
+      "/images/kompleks-wypoczynkowy-pod-warszawa/4.jpg",
+      "/images/kompleks-wypoczynkowy-pod-warszawa/5.jpg",
+      "/images/kompleks-wypoczynkowy-pod-warszawa/6.jpg",
+    ],
+    shortDescription: "Koncepcja kompleksu wypoczynkowego pod Warszawą",
+    description: `Projekt ten znajduje się obecnie w fazie aktywnego rozwoju i projektowania, gdzie krok po kroku tworzymy miejsce, w którym architektura całkowicie wtapia się w dziką przyrodę. Proste, ciemne sylwetki domów w stylu A-frame oraz Barnhouse są starannie wkomponowane między pnie sosen, nie zakłócając ciszy i spokoju tego miejsca. Głównym wyróżnikiem przestrzeni stała się kręta sieć kanałów: domki są usytuowane tak, że każdy z nich zyskał swoją kameralną mikro-wyspę oraz prywatny pomost z zacumowaną łódką tuż przy progu. Nie ma tu asfaltu ani wysokich płotów – jedynie żwirowe ścieżki, drewniane mostki, ogromne okna panoramiczne wpuszczające do środka leśną mgłę oraz wspólne palenisko na piaszczystym brzegu otwartej wody. To minimalistyczna i pełna życia przestrzeń, stworzona w jednym celu – aby podarować to wyjątkowe, tak dziś rzadkie uczucie leśnej samotności, dla którego chce się uciec z głośnego miasta.`,
+  },
+  {
     projectId: "budynek-w-lublinie",
     name: "Budynek w Lublinie",
     image: "/images/budynek-w-lublinie/1.jpg",
