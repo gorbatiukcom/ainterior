@@ -19,7 +19,7 @@ type PortfolioProject = {
 export const PortfolioProjects: PortfolioProject[] = [
   {
     projectId: "kompleks-wypoczynkowy-pod-warszawa",
-    name: "Koncepcja kompleksu wypoczynkowego pod Warszawą: filozofia slow life",
+    name: "Filozofia slow life",
     image: "/images/kompleks-wypoczynkowy-pod-warszawa/1.jpg",
     images: [
       "/images/kompleks-wypoczynkowy-pod-warszawa/1.jpg",
@@ -50,21 +50,6 @@ export const PortfolioProjects: PortfolioProject[] = [
       "/images/budynek-w-lublinie/12.jpg",
     ],
     description: "Powierzchnia domu 140 m2",
-  },
-  {
-    projectId: "apartament-w-katalonii-hiszpania",
-    name: "Apartament w Katalonii, Hiszpania",
-    image: "/images/apartament-w-katalonii-hiszpania/1.jpg",
-    images: [
-      "/images/apartament-w-katalonii-hiszpania/1.jpg",
-      "/images/apartament-w-katalonii-hiszpania/2.jpg",
-      "/images/apartament-w-katalonii-hiszpania/3.jpg",
-      "/images/apartament-w-katalonii-hiszpania/4.jpg",
-      "/images/apartament-w-katalonii-hiszpania/5.jpg",
-      "/images/apartament-w-katalonii-hiszpania/6.jpg",
-      "/images/apartament-w-katalonii-hiszpania/7.jpg",
-    ],
-    description: "Powierzchnia apartamentu 80 m2",
   },
   {
     projectId: "budynek-w-warszawie",
@@ -253,6 +238,21 @@ Mieszkanie w kamienicy, całkowicie odnowione i przystosowane do komfortowego wy
       "/images/qatar1/A. Jufairi - master updated-24.jpg",
     ],
     description: "Powierzchnia domu 350 m2",
+  },
+    {
+    projectId: "apartament-w-katalonii-hiszpania",
+    name: "Apartament w Katalonii, Hiszpania",
+    image: "/images/apartament-w-katalonii-hiszpania/1.jpg",
+    images: [
+      "/images/apartament-w-katalonii-hiszpania/1.jpg",
+      "/images/apartament-w-katalonii-hiszpania/2.jpg",
+      "/images/apartament-w-katalonii-hiszpania/3.jpg",
+      "/images/apartament-w-katalonii-hiszpania/4.jpg",
+      "/images/apartament-w-katalonii-hiszpania/5.jpg",
+      "/images/apartament-w-katalonii-hiszpania/6.jpg",
+      "/images/apartament-w-katalonii-hiszpania/7.jpg",
+    ],
+    description: "Powierzchnia apartamentu 80 m2",
   },
   {
     projectId: "lodz-al-tadeusza-kosciuszki-32",

@@ -17,7 +17,7 @@ export const Portfolio = () => {
     >
       {PortfolioProjects.map(({ name, image, projectId, shortDescription, description }) => {
         return (
-          <Link href={`/portfolio/${projectId}`} key={name} width={["100%", "calc(50% - 5px)"]}>
+          <Link href={`/portfolio/${projectId}`} key={projectId} width={["100%", "calc(50% - 5px)"]}>
             <Flex
               key={name}
               position="relative"
